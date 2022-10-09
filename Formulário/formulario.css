@@ -1,0 +1,74 @@
+em {
+    color: rgb(250, 7, 7)
+}
+
+fieldset{
+    margin:auto;
+    display: absolute;
+    text-align:left;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-color: rgb(18, 0, 0);
+    border: 2px rgb(3, 0, 7) solid;
+    border-radius: 20px;
+    text-align: left;
+}
+
+
+input[type=text]{
+    width: 85%;
+    padding-left: 1px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(11, 11, 11);
+    outline: none; 
+}
+
+input[type=email],
+textarea{
+    width: 90%;
+    padding-left: 1px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(10, 1, 1);
+    outline: none; 
+}
+
+label{
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    font-family: Gill Sans;
+}
+
+textarea{
+    line-height: 10px;
+    padding: 5px;
+    height: 45px;
+    resize: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+input[type=submit]{
+    display: block;
+    background-color: rgb(38, 166, 154);
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+label{
+    width: auto;
+    display: inline-block;
+
+}
